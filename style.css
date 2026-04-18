@@ -1,0 +1,117 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FOND */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 30px;
+    background: rgba(0,0,0,0.5);
+}
+
+header h1 {
+    font-size: 45px;
+    color: #00ffff;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid #00ffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #00ffff;
+    color: black;
+}
+
+/* HERO IMAGE */
+.hero {
+    height: 300px;
+    background: url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    background: rgba(0,0,0,0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    width: 220px;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #00ffff;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00ffff;
+}
+
+.card h3 {
+    color: #00ffff;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card a {
+    color: #00ffff;
+    border: 1px solid #00ffff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background: #00ffff;
+    color: black;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #00ffff;
+}
